@@ -1,0 +1,275 @@
+.novacap__titulo {
+  font-size: 20px;
+  padding: 1em;
+  color: dodgerblue;
+}
+
+.linguagens_usadas {
+  font-size: 20px;
+  color: red;
+}
+
+.empresa {
+  color: dodgerblue;
+}
+
+.divisao_com_cor {
+  padding: 1em 0;
+  background-color: rgb(3, 3, 3);
+  margin: 1em 0;
+}
+
+.titulo_crud_js {
+  text-align: center;
+  font-size: 30px;
+  margin: 5em 0 0 0;
+  color: dodgerblue;
+}
+
+.imagem_cinetag {
+  width: 100%;
+}
+
+.imagem_alurabook {
+  width: 100%;
+  padding: 1em;
+}
+
+.para_ver {
+  font-size: 17px;
+  color: grey;
+}
+
+.section_projetos_simples {
+  display: flex;
+  justify-content: center;
+}
+
+.rodape__projetos {
+  padding: 3em 0 0 0;
+}
+
+.container_siscau {
+  margin: 5em 0;
+}
+
+.siscau {
+  margin: 3em auto;
+  width: 70%;
+}
+
+#img_carrossel {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.titulo_siscau {
+  font-size: 30px;
+  text-align: center;
+  color: dodgerblue;
+  margin: 10px 0;
+}
+
+.paragrafo_siscau {
+  margin: 2 px 0;
+  font-size: 20px;
+  font-family: Arial, sans-serif; /* Família da fonte */
+  text-align: left; /* Alinhamento do texto (left, right, center, justify) */
+}
+
+.negritos_paragrafo {
+  color: dodgerblue;
+}
+
+.container_controle_resmas {
+  margin: 5em 0;
+}
+
+.saida {
+  font-size: 25px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* Estilização para o link com ícone do GitHub */
+
+.container_button_github {
+  margin: 5em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.github-link {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a.github-link i {
+  margin-right: 8px;
+}
+
+a.github-link:hover {
+  background-color: #555;
+}
+
+#img_carrosel2 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+/* ----------------- PROJETOS BACK --------------- */
+
+.section_pro_novacap  {
+  width: 90%; 
+  margin: auto;
+}
+
+#card_projetosBack {
+  background-color: transparent;
+  border: 2px solid dodgerblue;
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+
+#card_projetosBack2 {
+  background-color: transparent;
+  border: 2px solid dodgerblue;
+  color: white;
+  margin: 2em 0 0 0;
+  width: 100%;
+}
+
+#carouselExample {
+  padding: 1em;
+}
+
+#carouselExampleAutoplaying {
+  padding: 1em;
+}
+
+.link_doControleDeResmas {
+  text-decoration: none;
+  color: white;
+}
+
+.container_pro_novacap {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.card_text_siscau {
+  font-size: 15px;
+}
+
+.ContainerProBack2 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.carousel-control-prev-icon {
+  background-color: #555;
+}
+
+.carousel-control-next-icon {
+  background-color: #555;
+}
+
+#myCarousel {
+  padding: 2em;
+}
+/* ----------------- PROJETOS BACK --------------- */
+
+@media (max-width: 1200px) {
+  .section_pro_novacap  {
+    width: 100%; 
+    margin: auto;
+  }
+
+  #card_projetosSimples:hover {
+    transform: none;
+  }
+
+  #card_projetosSimples2:hover {
+    transform: none;
+  }
+  /* -- projetos  --  */
+  #carouselExampleAutoplaying {
+    width: 97%;
+    margin: 0 auto;
+  }
+
+  #img_carrosel2 {
+    width: 100%;
+  }
+
+  #mudarcor {
+    background-color: rgb(224, 222, 222);
+  }
+
+  .paragrafo_siscau {
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: Arial, sans-serif; /* Família da fonte */
+    margin: 10px; /* Margens externas */
+    padding: 5px; /* Preenchimento interno */
+    text-align: left; /* Alinhamento do texto (left, right, center, justify) */
+    max-width: 400px; /* Largura máxima */
+  }
+
+  .ContainerProSimples {
+    display: block;
+  }
+
+  .siscau {
+    margin: 3em auto;
+    width: 90%;
+  }
+
+  .novacap__titulo {
+    text-align: center;
+  }
+
+  .empresa__projeto {
+    width: 90%;
+    text-align: center;
+  }
+
+  #card_projetosSimples {
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    margin: 2em auto;
+    color: white;
+    width: 80%;
+  }
+
+  #card_projetosSimples2 {
+    background-color: transparent;
+    border: 2px solid dodgerblue;
+    margin: 1em auto;
+    color: white;
+    width: 80%;
+  }
+
+  #card_projetosBack {
+    width: 90%;
+    margin: 1em auto;
+  }
+
+  .container_pro_novacap {
+    display: block;
+    gap: 2em;
+  }
+}
+  

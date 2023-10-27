@@ -1,0 +1,45 @@
+.apresentacao {
+    padding: 3% 15%; /* Margem da pagina inteira | cabecalho e rodape 5% | canto 15% */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+  
+    opacity: 0; /* Inicialmente, o elemento está oculto */
+    animation: fade-in 1s ease-in-out forwards; /* Aplica a animação */
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Desloca o elemento para baixo */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Retorna o elemento à sua posição original */
+    }
+  }
+
+.apresentacao__conteudo__texto {
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__conteudo__texto_local {
+  text-align: left;
+  font-size: 1.7rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__conteudo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+  font-size: 2.3rem; /* esse rem é para fazer o adapitamento é so dividir o px por 16 e colocar o rem */
+  font-family: "Krona One", sans-serif;
+}

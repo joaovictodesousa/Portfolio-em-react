@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap"); /*  fonte que baixei */
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container_cardisprimario {
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.rodape {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid var(--cor-terciaria);
+  border-width: 22px;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .rodape {
+    margin: 0;
+    padding: 0;
+  }
+}

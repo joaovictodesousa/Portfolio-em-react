@@ -1,0 +1,23 @@
+.titulo {
+  color: dodgerblue;
+  margin: 1em 0 1.2em 6em;
+  font-size: 60px;
+}
+
+.divsao {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo {
+  display: inline-block; /* PARA A LINHA OCUPAR SOMENTE O TAMANHO DO TITULO */
+  border-bottom: 2px solid dodgerblue;
+}
+
+span {
+  color: dodgerblue;
+}
+
+p {
+    text-align: center;
+}
